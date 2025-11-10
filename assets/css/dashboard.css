@@ -1,0 +1,296 @@
+/* Global Reset and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 35px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.card h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #1f1f1f;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Table Design */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+}
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Form Elements */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 70px;
+}
+
+input[type="file"] {
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3b3b3b;
+    transform: translateY(-1px);
+}
+
+button.danger {
+    background-color: #d9534f;
+}
+
+button.danger:hover {
+    background-color: #c9302c;
+}
+
+/* Image Display */
+img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Filter Section */
+form select,
+form button {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody td {
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    tbody td::before {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: left;
+        content: attr(data-label);
+    }
+}
+
+.add-product-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 2.5rem auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+    outline: none;
+}
+
+.add-product-form button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.add-product-form button:hover {
+    background-color: #084cdf;
+    transform: scale(1.02);
+}
+
+.logo-text .logo-img {
+    height: 40px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+    flex: 1;
+    text-align: left;
+}
+
+.logo-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-img {
+    height: 40px;
+}
+
+.nav-right {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-right a {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+

@@ -1,0 +1,217 @@
+{
+    "Region I (Ilocos Region)": {
+        "Ilocos Norte": [
+            "Laoag City",
+            "Batac",
+            "Pasuquin"
+        ],
+        "Ilocos Sur": [
+            "Vigan",
+            "Candon",
+            "Santa Maria"
+        ],
+        "La Union": [
+            "San Fernando",
+            "Agoo",
+            "Bauang"
+        ],
+        "Pangasinan": [
+            "Lingayen",
+            "Dagupan",
+            "San Carlos"
+        ]
+    },
+    "Region III (Central Luzon)": {
+        "Pampanga": [
+            "San Fernando",
+            "Angeles",
+            "Mabalacat"
+        ],
+        "Bulacan": [
+            "Malolos",
+            "Meycauayan",
+            "San Jose del Monte"
+        ],
+        "Bataan": [
+            "Balanga",
+            "Mariveles",
+            "Orani"
+        ],
+        "Zambales": [
+            "Iba",
+            "Olongapo",
+            "Subic"
+        ],
+        "Tarlac": [
+            "Tarlac City",
+            "Capas",
+            "Concepcion"
+        ],
+        "Nueva Ecija": [
+            "Cabanatuan",
+            "Gapan",
+            "Palayan"
+        ]
+    },
+    "NCR": {
+        "Metro Manila": [
+            "Manila",
+            "Quezon City",
+            "Makati",
+            "Pasig",
+            "Taguig",
+            "Parañaque",
+            "Caloocan",
+            "Marikina",
+            "Mandaluyong",
+            "Pasay",
+            "Malabon",
+            "Navotas",
+            "San Juan",
+            "Valenzuela",
+            "Las Piñas",
+            "Muntinlupa"
+        ]
+    },
+    "Region IV-A (CALABARZON)": {
+        "Cavite": [
+            "Bacoor",
+            "Dasmariñas",
+            "Tagaytay"
+        ],
+        "Laguna": [
+            "Santa Rosa",
+            "San Pablo",
+            "Calamba"
+        ],
+        "Batangas": [
+            "Lipa",
+            "Tanauan",
+            "Batangas City"
+        ],
+        "Rizal": [
+            "Antipolo",
+            "Cainta",
+            "Rodriguez"
+        ],
+        "Quezon": [
+            "Lucena",
+            "Tayabas",
+            "Sariaya"
+        ],
+        "Quezon City": [
+            "Manila",
+            "Makati",
+            "Pasig",
+            "Taguig"
+        ]
+    },
+    "Region V (Bicol Region)": {
+        "Albay": [
+            "Legazpi",
+            "Tabaco",
+            "Ligao"
+        ],
+        "Camarines Sur": [
+            "Naga",
+            "Iriga",
+            "Libmanan"
+        ],
+        "Camarines Norte": [
+            "Daet",
+            "Jose Panganiban",
+            "Basud"
+        ],
+        "Sorsogon": [
+            "Sorsogon City",
+            "Bulusan",
+            "Irosin"
+        ],
+        "Catanduanes": [
+            "Virac",
+            "Bato",
+            "Pandan"
+        ],
+        "Masbate": [
+            "Masbate City",
+            "Mobo",
+            "Aroroy"
+        ]
+    },
+    "Region VII (Central Visayas)": {
+        "Cebu": [
+            "Cebu City",
+            "Mandaue",
+            "Lapu-Lapu"
+        ],
+        "Bohol": [
+            "Tagbilaran",
+            "Ubay",
+            "Talibon"
+        ],
+        "Negros Oriental": [
+            "Dumaguete",
+            "Bais",
+            "Bayawan"
+        ],
+        "Siquijor": [
+            "Siquijor",
+            "Larena",
+            "San Juan"
+        ]
+    },
+    "Region XI (Davao Region)": {
+        "Davao del Sur": [
+            "Davao City",
+            "Digos",
+            "Bansalan"
+        ],
+        "Davao del Norte": [
+            "Tagum",
+            "Panabo",
+            "Santo Tomas"
+        ],
+        "Davao Oriental": [
+            "Mati",
+            "Baganga",
+            "Banaybanay"
+        ],
+        "Davao de Oro": [
+            "Tagum",
+            "Mawab",
+            "Nabunturan"
+        ],
+        "Davao Occidental": [
+            "Malita",
+            "Digos",
+            "Santa Maria"
+        ]
+    },
+    "BARMM": {
+        "Maguindanao del Norte": [
+            "Cotabato City",
+            "Barira",
+            "Buldon"
+        ],
+        "Lanao del Sur": [
+            "Marawi",
+            "Balindong",
+            "Malabang"
+        ],
+        "Sulu": [
+            "Jolo",
+            "Patikul",
+            "Indanan"
+        ],
+        "Tawi-Tawi": [
+            "Bongao",
+            "Sitangkai",
+            "Mapun"
+        ],
+        "Basilan": [
+            "Isabela",
+            "Lamitan",
+            "Lantawan"
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 40px 0 20px;
+    font-size: 28px;
+    color: #222;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.wishlist-form {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.wishlist-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fave-icon {
+    font-size: 20px;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.fave-icon.filled {
+    color: #ff4d4d;
+}
+
+.fave-icon:hover {
+    color: #ff4d4d;
+}
